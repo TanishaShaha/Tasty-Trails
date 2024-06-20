@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .nav-logo {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+  }
+
+  .nav-search,
+  .nav-Login,
+  .nav-Signup,
+  .nav-download,
+  .nav-cart {
+    width: 100%;
+  }
+
+  .nav-cart i {
+    font-size: 20px;
+  }
+
+  .nav-first {
+    font-size: 1rem;
+  }
+
+  .nav-address {
+    display: none;
+  }
+
+  .panel {
+    display: none;
+  }
+
+  #mySidenav,
+  #overlay {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_text {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+
+  .hero_text p {
+    margin: 0.5rem;
+  }
+
+  img {
+    height: 250px;
+  }
+}
